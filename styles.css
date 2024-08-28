@@ -1,0 +1,204 @@
+
+body{
+    background-image: url(../Img/fondo.jpg);
+    font-family: "Chakra Petch", sans-serif;
+    margin: 0 !important;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 4.3rem;
+}
+
+header {
+    margin-top: 15px;
+}
+
+.container{
+    margin: 0 50px 60px 50px ;
+}
+
+.container__contenido{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+}
+
+.Container_Encriptacion{
+    flex-grow: 9; 
+    border-radius: 10px;
+}
+
+.Container_Encriptacion.Img{
+    flex-grow: 1;
+    background-color: #F0F3F4;
+    box-shadow: 0 4px 20px 10px rgba(233, 202, 27, 0.2);
+}
+
+.container__botones{
+    text-align: center;
+    padding-top: 10px;
+}
+
+textarea{
+    border: none;
+    resize: none;
+    outline: none;
+    background-color: #F0F3F4;
+    border-radius: 10px;   
+    font-family: inherit;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+#TextoEncriptar{
+    width: 100%;
+    height: 23rem;
+    padding: 20px;
+    box-shadow: 0 4px 20px 10px rgba(233, 202, 27, 0.2);
+    box-sizing: border-box;
+    text-transform: lowercase;
+}
+
+#Texto{
+    height: 27rem;
+    width: 20rem;
+    text-align: justify;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container__resultado{
+    display: none;
+}
+
+.container_SinEncriptacion{
+    text-align: center;
+    transform: translate(0, 55%);
+}
+
+.container__lupa{
+    width: 20rem;
+}
+
+h1{
+    color: #ECF0F1;
+    text-align: center;
+    margin: 0 0 10px 0!important;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+.container__boton.encriptar{
+    background-color: #1C2833;
+    color:#F0F3F4;
+    border: none;
+}
+
+.container__boton.encriptar:hover {
+    background-color: #5D6D7E;
+}
+
+.container__boton.desencriptar{
+    background-color: #707B7C;
+    color:#F0F3F4;
+    border: none; 
+}
+
+.container__boton.desencriptar:hover {
+    background-color: #273746;
+}
+
+p {
+    margin: 0 !important;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+
+.container__botones button {
+    border: none;
+}
+
+#Limpiar{
+    color: #273746;
+    font-size: 16px;
+}
+
+#Limpiar:hover{
+    color: #F0F3F4;
+}
+
+.container__boton.limpiar:hover {
+    background-color: #2E4053;
+}
+
+.Container__boton.copiar{
+    background-color: #1C2833;
+}
+
+
+.Container__boton.copiar:hover{
+    background-color: #797D7F;
+}
+
+#CopiarTexto {
+    color: #F0F3F4;
+    font-size: 22px;
+}
+
+footer{
+    background-color: #2E4053;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}   
+
+a{
+    color: #F0F3F4;
+}
+
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color: #1C2833;
+}
+
+.Desarrollado{
+    background-color: #1C2833;
+    display: flex; 
+    gap: 5px; 
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.Contacto{
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Contacto i{
+    font-size: 26px;
+}
+
+.bi.bi-stars{
+    color: #DDF34D;
+    font-size: 20px;
+}
